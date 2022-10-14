@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Lato&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav a {
-    text-align: center;
-    color: #84DAEB;
-    text-decoration: none;
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #84DAEB; 
+    margin: 0;
+    padding: 0;
+    color: #2B6442
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,14 +32,26 @@ main section {
     height: 725px;
 }
 
-body {
-    background-color: #84DAEB; 
-    color: #2B6442
-}
-
 header {
     background-color: #2B6442; 
     color: #84DAEB;
+}
+
+#logo_link {
+    padding-top: 5px;
+}  
+
+.home-title {
+    font-family: Comfortaa, Verdana, Tahoma;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+nav a {
+    text-align: center;
+    color: #84DAEB;
+    text-decoration: none;
+    padding: 35px
 }
 
 nav a:hover {
@@ -40,10 +59,23 @@ nav a:hover {
     color: #84DAEB;
 }
 
+h2 {
+    font-family: Comfortaa, Verdana, Tahoma;
+    margin: 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 .book, .join {
     background-color: #2B6442; 
     color: #84DAEB;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,15 +91,39 @@ nav a:hover {
 .msg {
     background-color: #2B6442; 
     color: #84DAEB;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.msg h2 {
+    font-family: Comfortaa, Verdana, Tahoma;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.mountains {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 footer {
     background-color: #2B6442; 
     color: #84DAEB;
+    margin-top: 200px;
+    padding: 25px 50px
 } 
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -92,4 +148,12 @@ footer p a:hover {
 
 .icon {
     width: 80px;
+}
+
+footer .social img  {
+    padding-top: 15px;
+} 
+
+.card-img {
+    border: 10px solid #2B6442;
 }
