@@ -42,7 +42,7 @@ header {
     align-self: center;
 }  
 
-.home-title {
+.home-title, .faq-title {
     font-family: Comfortaa, Verdana, Tahoma;
     font-size: 2em;
     margin-top: 10px;
@@ -233,7 +233,30 @@ footer .social img  {
     padding-top: 15px;
 } 
 
+.river-img{
+    width: 100%;
+}
 
+.faq-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.questions{
+    margin: 0 10% 0 10%;
+}
+
+.question {
+    margin: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.answers{
+    font-size: 0.4em;
+    text-align: left;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
