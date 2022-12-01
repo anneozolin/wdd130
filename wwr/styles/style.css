@@ -246,17 +246,34 @@ footer .social img  {
     margin: 0 10% 0 10%;
 }
 
-.question {
-    margin: 20px;
+
+.accordion {
+    background-color: #84DAEB;
+    color: #2B6442;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+.active, .accordion:hover {
+    background-color: #2B6442;
+    color: #84DAEB;
 }
 
-.answers{
-    font-size: 0.4em;
+.panel {
+    padding: 0 18px;
+    background-color: #84DAEB;
     text-align: left;
-}
+    display: none;
+    overflow: hidden;
+  }
 
 .form {
 	margin: 40px 0;
